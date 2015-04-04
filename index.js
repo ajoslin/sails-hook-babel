@@ -37,8 +37,7 @@ module.exports = function(sails) {
         //Load babel and override the default require; with experimental features,
         //such as async/await.
         require("babel/register")({
-          experimental: sails.config[this.configKey].experimental,
-          loose: sails.config[this.configKey].loose
+          stage: 0
         });
 
 

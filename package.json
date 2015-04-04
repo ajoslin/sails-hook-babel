@@ -22,7 +22,7 @@
     "isHook": true
   },
   "dependencies": {
-    "babel": "^4.6.3"
+    "babel": "5.x"
   },
   "devDependencies": {
     "glob": "^4.4.1",
